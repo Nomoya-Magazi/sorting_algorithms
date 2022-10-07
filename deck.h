@@ -40,4 +40,5 @@ typedef struct deck_node_s
 } deck_node_t;
 
 void sort_deck(deck_node_t **deck);
+void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*));
 #endif
