@@ -41,4 +41,7 @@ typedef struct deck_node_s
 
 void sort_deck(deck_node_t **deck);
 void qsort(void *base, size_t nitems, size_t size, int (*compar)(const void *, const void*));
+void swap(int *array, int a, int b);
+void swapper(listint_t *a, listint_t *b);
+void bubble_sort(int *array, size_t size);
 #endif
